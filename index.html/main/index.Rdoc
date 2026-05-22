@@ -4,8 +4,8 @@
 
 [context]
 ->  user: new
-- modelstore:
-->  model lmlm
+- [modelstore]
+->  model: lmlm
 -  region: web4lib
 -  date: April
 
