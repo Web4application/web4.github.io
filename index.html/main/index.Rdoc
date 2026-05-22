@@ -3,10 +3,11 @@
 ============================================================
 
 [context]
-  user: new
-  model: lmlm
-  region: global
-  date: April
+->  user: new
+- modelstore:
+->  model lmlm
+-  region: web4lib
+-  date: April
 
 [user_activities]
   - login
