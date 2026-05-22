@@ -3,13 +3,13 @@
 ============================================================
 
 [context]
-#->  user: new
-- [modelstore]
-#=>  model: lmlm
--  region: web4lib
--  date: April
+ user: 
+[modelstore:]
+ model: lmlm
+region: web4lib
+ date: April
 
-[user_activities]
+[user_activities:]
   - login
   - logout
   - session_start
@@ -21,7 +21,7 @@
   - interaction_trace
   - feedback_submit
 
-[identity_activities]
+[identity_activities:]
   - session_create
   - identity_bind
   - device_link
@@ -29,14 +29,14 @@
   - permission_control
   - reputation_update
 
-[context_activities]
+[context_activities:]
   - region_detect
   - time_anchor
   - session_snapshot
   - context_switch
   - state_restore
 
-[signal_activities]
+[signal_activities:]
   - stream_ingest
   - stream_switch
   - multi_stream_merge
@@ -68,6 +68,7 @@
   - live_participation
 
 [memory_activities]
+
   - session_store
   - history_graph
   - preference_model
@@ -75,13 +76,14 @@
   - context_recall
 
 [control_activities]
+
   - route_stream
   - load_balance
   - fallback_switch
   - cache_manage
   - system_monitor
 
-[publishing_activities]
+[publishing_activities:]
   - episode_publish
   - rss_generate
   - social_clip_export
@@ -90,11 +92,11 @@
   - schedule_release
 
 [edge_activities]
-  - sdr_ingest
-  - satellite_relay
-  - global_sync
+ - sdr_ingest
+      - satellite_relay
+   - global_sync
   - edge_replication
-  - low_latency_route
+   - low_latency_route
 
 [state]
   mode: idle
