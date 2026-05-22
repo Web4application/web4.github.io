@@ -3,9 +3,9 @@
 ============================================================
 
 [context]
-  user: undefined
-  model: undefined
-  region: undefined
+  user: new
+  model: lmlm
+  region: global
   date: April
 
 [user_activities]
